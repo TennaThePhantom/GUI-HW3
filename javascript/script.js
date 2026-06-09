@@ -16,7 +16,7 @@ const errorArea = document.getElementById("errorArea");
 const minNumber = -50;
 const maxNumber = 50;
 
-/**
+/*
 Show error message if user don't do something right in input
 emoji lass access 6/8/2026 -> https://getemoji.com/
  */
