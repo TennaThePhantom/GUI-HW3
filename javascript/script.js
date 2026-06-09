@@ -1,3 +1,9 @@
+/*
+File: script.js
+Student Name: Tennessee Foster
+Date Created/Modify: 6/4/2026
+Copyright (c) 2026 by Tennessee Foster. All rights reserved.
+*/
 
 // Get DOM elements
 const form = document.getElementById("tableForm");

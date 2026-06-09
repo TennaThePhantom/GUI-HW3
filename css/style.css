@@ -1,4 +1,9 @@
-
+/*
+File: style.css
+Student Name: Tennessee Foster
+Date Created 6/4/2026
+Copyright (c) 2026 by Tennessee Foster. All rights reserved.
+*/
 .main-text-color {
 	color: #a522fc;
 }
@@ -8,7 +13,7 @@
 .generate-button:hover{
 	background-color: #9900ff;
 }
-/* Table container with scrolling */
+/* Table container with autoscroll if table can't fit in user screen */
 .table-container {
 	max-height: 500px;
 	overflow: auto;
@@ -97,10 +102,10 @@
 	text-align: center;
 }
 
-/* Input focus styling */
+/* input focus styling */
 .form-control:focus {
 	border-color: #ac43f2;
-	box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+	box-shadow: 0 0 0 0.2rem rgba(153, 12, 224, 0.25);
 }
 
 /* Make table cells consistent */
