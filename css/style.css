@@ -1,8 +1,13 @@
 /*
 File: style.css
 Student Name: Tennessee Foster
+Email: tennessee_foster@student.uml.edu
 Date Created 6/4/2026
 Copyright (c) 2026 by Tennessee Foster. All rights reserved.
+*/
+
+/*
+colors for text(header) and buttons
 */
 .main-text-color {
 	color: #a522fc;
@@ -56,7 +61,7 @@ Copyright (c) 2026 by Tennessee Foster. All rights reserved.
 	z-index: 10;
 }
 
-/* Corner table cell */
+/* Corner fixed table cell */
 .multiplication-table thead tr th:first-child {
 	position: sticky;
 	top: 0;
@@ -73,7 +78,7 @@ Copyright (c) 2026 by Tennessee Foster. All rights reserved.
 	color: white;
 }
 
-/* Alternating row colors */
+/* alternating row colors */
 .multiplication-table tbody tr:nth-child(even) td {
 	background-color: #ac43f2;
 }
@@ -95,7 +100,7 @@ Copyright (c) 2026 by Tennessee Foster. All rights reserved.
 
 /* Error message pop-up */
 .error-message {
-	background-color: #dc3545;
+	background-color: red;
 	color: white;
 	padding: 10px;
 	border-radius: 4px;
@@ -108,7 +113,7 @@ Copyright (c) 2026 by Tennessee Foster. All rights reserved.
 	box-shadow: 0 0 0 0.2rem rgba(153, 12, 224, 0.25);
 }
 
-/* Make table cells consistent */
+/* table cells */
 .multiplication-table td,
 .multiplication-table th {
 	padding: 6px 4px;

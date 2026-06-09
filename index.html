@@ -5,12 +5,13 @@
 File: index.html
 GUI Assignment: HW3 Multiplication Table
 Name: Tennessee Foster
+Email: tennessee_foster@student.uml.edu
 Created 6/3/2026:
-Description: Using HTML CSS and Javascript to create a Multiplication Table
+Description: Using HTML CSS and Javascript to create a user interactive multiplication table
 -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Multiplication Table | HW3</title>
+		<title>Multiplication Table/HW3</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -22,10 +23,10 @@ Description: Using HTML CSS and Javascript to create a Multiplication Table
 			<!-- Header -->
 			<div class="text-center mb-4">
 				<h1 class="main-text-color">Multiplication Table Generator</h1>
-				<p class="text-secondary">Enter ranges to create your table</p>
+				<p class="text-secondary">Enter number ranges to create your table</p>
 			</div>
 
-			<!-- Form for user -->
+			<!-- Form for User -->
 			<div class="card bg-secondary bg-opacity-25 mb-4">
 				<div class="card-body">
 					<form id="tableForm">
@@ -43,7 +44,7 @@ Description: Using HTML CSS and Javascript to create a Multiplication Table
 									</span>
 									<input
 										type="number"
-										id="startX"
+										id="minX"
 										class="form-control bg-dark text-light"
 										value="1"
 										step="1"
@@ -57,7 +58,7 @@ Description: Using HTML CSS and Javascript to create a Multiplication Table
 									</span>
 									<input
 										type="number"
-										id="endX"
+										id="maxX"
 										class="form-control bg-dark text-light"
 										value="5"
 										step="1"
@@ -83,7 +84,7 @@ Description: Using HTML CSS and Javascript to create a Multiplication Table
 									</span>
 									<input
 										type="number"
-										id="startY"
+										id="minY"
 										class="form-control bg-dark text-light"
 										value="1"
 										step="1"
@@ -97,7 +98,7 @@ Description: Using HTML CSS and Javascript to create a Multiplication Table
 									</span>
 									<input
 										type="number"
-										id="endY"
+										id="maxY"
 										class="form-control bg-dark text-light"
 										value="5"
 										step="1"
@@ -129,7 +130,7 @@ Description: Using HTML CSS and Javascript to create a Multiplication Table
 				</div>
 			</div>
 
-			<!-- Error pop up -->
+			<!-- error pop up -->
 			<div id="errorArea" class="mb-3"></div>
 
 			<!-- Table Container and message below -->
