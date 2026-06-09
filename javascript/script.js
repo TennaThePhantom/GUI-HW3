@@ -1,9 +1,3 @@
-/**
- * COMP 4610 GUI I - HW3
- * Simple Multiplication Table Generator with Bootstrap
- * Author: Your Name
- * Date: Current Date
- */
 
 // Get DOM elements
 const form = document.getElementById("tableForm");
